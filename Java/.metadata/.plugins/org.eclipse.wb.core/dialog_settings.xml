@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.wb.internal.core.model.util.factory.FactoryCreateAction$FactoryCreateDialog">
+		<item key="x" value="166"/>
+		<item key="y" value="102"/>
+		<item key="width" value="947"/>
+		<item key="height" value="779"/>
+	</section>
+	<section name="org.eclipse.wb.internal.core.model.util.ExposeComponentSupport$ExposeDialog">
+		<item key="x" value="377"/>
+		<item key="y" value="351"/>
+		<item key="width" value="525"/>
+		<item key="height" value="281"/>
+	</section>
+	<section name="org.eclipse.wb.internal.core.nls.ui.NlsDialog">
+		<item key="x" value="0"/>
+		<item key="y" value="236"/>
+		<item key="width" value="1280"/>
+		<item key="height" value="512"/>
+	</section>
+</section>

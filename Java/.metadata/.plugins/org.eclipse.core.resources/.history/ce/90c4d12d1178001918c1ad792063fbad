@@ -1,0 +1,15 @@
+package acao;
+
+import beans.Beans;
+import dados.Array;
+
+public class Acao {
+	
+	public int somar(int indice) {
+		int cont=0;
+		
+		
+		return cont;
+	}
+
+}

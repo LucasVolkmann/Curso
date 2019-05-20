@@ -1,0 +1,52 @@
+package principal;
+
+import java.awt.EventQueue;
+
+
+import beans.Beans;
+import dados.Array;
+import formulario.Formulario;
+
+public class Principal {
+
+	public static void main(String[] args) {
+		
+		Beans b = new Beans();
+		b.setNome("Feijão");
+		b.setQuantidade(0);
+		Array.Lista.add(b);
+		b.setNome("Tomate");
+		b.setQuantidade(0);
+		Array.Lista.add(b);	
+		b.setNome("Suco de Uva");
+		b.setQuantidade(0);
+		Array.Lista.add(b);
+		b.setNome("Queijo");
+		b.setQuantidade(0);
+		Array.Lista.add(b);
+		b.setNome("Arroz");
+		b.setQuantidade(0);
+		Array.Lista.add(b);
+		b.setNome("Suco de Laranja");
+		b.setQuantidade(0);
+		Array.Lista.add(b);
+		b.setNome("Cerveja");
+		b.setQuantidade(0);
+		Array.Lista.add(b);
+		b.setNome("Banana");
+		b.setQuantidade(0);
+		Array.Lista.add(b);
+		
+		EventQueue.invokeLater(new Runnable() {
+			public void run() {
+				try {
+					Formulario frame = new Formulario();
+					frame.setVisible(true);
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+			}
+		});
+	}
+
+}

@@ -1,0 +1,20 @@
+package acao;
+
+import beans.Beans;
+import dados.Array;
+
+public class Acao {
+	
+	public void addListar(Beans b) {
+		Array.Lista.add(b);
+	}
+
+	public int somar(int indice) {
+		int cont=0;
+		Array.Lista.get(indice).setQuantidade();
+		
+		
+		return cont;
+	}
+
+}

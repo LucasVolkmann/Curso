@@ -1,0 +1,15 @@
+package beans;
+
+public class Beans {
+
+	String Lista;
+
+	public String getLista() {
+		return Lista;
+	}
+
+	public void setLista(String lista) {
+		Lista = lista;
+	}
+	
+}

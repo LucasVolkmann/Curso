@@ -1,0 +1,182 @@
+package formulario;
+
+import java.awt.BorderLayout;
+import java.awt.EventQueue;
+
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+import javax.swing.border.EmptyBorder;
+import javax.swing.JButton;
+import javax.swing.JLabel;
+import javax.swing.SwingConstants;
+import java.awt.Color;
+import javax.swing.JTextField;
+import java.awt.event.ActionListener;
+import java.awt.event.ActionEvent;
+
+public class Formulario extends JFrame {
+
+	private JPanel contentPane;
+	private JTextField txtQuantidade;
+
+	public Formulario() {
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		setBounds(100, 100, 632, 460);
+		contentPane = new JPanel();
+		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
+		setContentPane(contentPane);
+		contentPane.setLayout(null);
+		
+		JButton btnFeijaoMais = new JButton("+");
+		btnFeijaoMais.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				
+			}
+		});
+		btnFeijaoMais.setBounds(10, 54, 50, 23);
+		contentPane.add(btnFeijaoMais);
+		
+		JButton btnFeijaoMenos = new JButton("-");
+		btnFeijaoMenos.setBounds(74, 54, 50, 23);
+		contentPane.add(btnFeijaoMenos);
+		
+		JLabel lblFeijao = new JLabel("Feij\u00E3o");
+		lblFeijao.setHorizontalAlignment(SwingConstants.CENTER);
+		lblFeijao.setBounds(10, 11, 114, 43);
+		contentPane.add(lblFeijao);
+		
+		JButton btnArrozMais = new JButton("+");
+		btnArrozMais.setBounds(10, 208, 50, 23);
+		contentPane.add(btnArrozMais);
+		
+		JButton btnArrozMenos = new JButton("-");
+		btnArrozMenos.setBounds(74, 208, 50, 23);
+		contentPane.add(btnArrozMenos);
+		
+		JLabel lblArroz = new JLabel("Arroz");
+		lblArroz.setHorizontalAlignment(SwingConstants.CENTER);
+		lblArroz.setBounds(10, 165, 114, 43);
+		contentPane.add(lblArroz);
+		
+		JButton button_3 = new JButton("+");
+		button_3.setBounds(258, 54, 50, 23);
+		contentPane.add(button_3);
+		
+		JButton button_4 = new JButton("-");
+		button_4.setBounds(322, 54, 50, 23);
+		contentPane.add(button_4);
+		
+		JLabel lblTomate = new JLabel("Tomate");
+		lblTomate.setHorizontalAlignment(SwingConstants.CENTER);
+		lblTomate.setBounds(258, 11, 114, 43);
+		contentPane.add(lblTomate);
+		
+		JButton button_5 = new JButton("+");
+		button_5.setBounds(258, 208, 50, 23);
+		contentPane.add(button_5);
+		
+		JButton button_6 = new JButton("-");
+		button_6.setBounds(322, 208, 50, 23);
+		contentPane.add(button_6);
+		
+		JLabel lblSucoDeLaranja = new JLabel("Suco De Laranja");
+		lblSucoDeLaranja.setHorizontalAlignment(SwingConstants.CENTER);
+		lblSucoDeLaranja.setBounds(258, 165, 114, 43);
+		contentPane.add(lblSucoDeLaranja);
+		
+		JButton SucodeUvaMais = new JButton("+");
+		SucodeUvaMais.setBounds(10, 131, 50, 23);
+		contentPane.add(SucodeUvaMais);
+		
+		JButton button_8 = new JButton("-");
+		button_8.setBounds(74, 131, 50, 23);
+		contentPane.add(button_8);
+		
+		JLabel lblSucoDeUva = new JLabel("Suco de Uva");
+		lblSucoDeUva.setHorizontalAlignment(SwingConstants.CENTER);
+		lblSucoDeUva.setBounds(10, 88, 114, 43);
+		contentPane.add(lblSucoDeUva);
+		
+		JButton button_9 = new JButton("+");
+		button_9.setBounds(10, 285, 50, 23);
+		contentPane.add(button_9);
+		
+		JButton button_10 = new JButton("-");
+		button_10.setBounds(74, 285, 50, 23);
+		contentPane.add(button_10);
+		
+		JLabel lblCerveja = new JLabel("Cerveja");
+		lblCerveja.setHorizontalAlignment(SwingConstants.CENTER);
+		lblCerveja.setBounds(10, 242, 114, 43);
+		contentPane.add(lblCerveja);
+		
+		JButton button_11 = new JButton("+");
+		button_11.setBounds(258, 131, 50, 23);
+		contentPane.add(button_11);
+		
+		JButton button_12 = new JButton("-");
+		button_12.setBounds(322, 131, 50, 23);
+		contentPane.add(button_12);
+		
+		JLabel lblTomate_1 = new JLabel("Tomate");
+		lblTomate_1.setHorizontalAlignment(SwingConstants.CENTER);
+		lblTomate_1.setBounds(258, 88, 114, 43);
+		contentPane.add(lblTomate_1);
+		
+		JButton button_13 = new JButton("+");
+		button_13.setBounds(258, 285, 50, 23);
+		contentPane.add(button_13);
+		
+		JButton button_14 = new JButton("-");
+		button_14.setBounds(322, 285, 50, 23);
+		contentPane.add(button_14);
+		
+		JLabel lblBanana = new JLabel("Banana");
+		lblBanana.setHorizontalAlignment(SwingConstants.CENTER);
+		lblBanana.setBounds(258, 242, 114, 43);
+		contentPane.add(lblBanana);
+		
+		JPanel panel = new JPanel();
+		panel.setBackground(Color.BLACK);
+		panel.setBounds(0, 85, 409, 10);
+		contentPane.add(panel);
+		
+		JPanel panel_1 = new JPanel();
+		panel_1.setBackground(Color.BLACK);
+		panel_1.setBounds(0, 165, 409, 10);
+		contentPane.add(panel_1);
+		
+		JPanel panel_2 = new JPanel();
+		panel_2.setBackground(Color.BLACK);
+		panel_2.setBounds(0, 242, 409, 10);
+		contentPane.add(panel_2);
+		
+		JPanel panel_3 = new JPanel();
+		panel_3.setBackground(Color.BLACK);
+		panel_3.setBounds(0, 319, 409, 10);
+		contentPane.add(panel_3);
+		
+		JPanel panel_4 = new JPanel();
+		panel_4.setBackground(Color.BLACK);
+		panel_4.setBounds(408, 11, 10, 318);
+		contentPane.add(panel_4);
+		
+		JPanel panel_5 = new JPanel();
+		panel_5.setBackground(Color.BLACK);
+		panel_5.setBounds(193, 11, 10, 318);
+		contentPane.add(panel_5);
+		
+		txtQuantidade = new JTextField();
+		txtQuantidade.setBounds(510, 11, 96, 20);
+		contentPane.add(txtQuantidade);
+		txtQuantidade.setColumns(10);
+		
+		JLabel lblQuantidade = new JLabel("Quantidade:");
+		lblQuantidade.setBounds(428, 11, 72, 23);
+		contentPane.add(lblQuantidade);
+		
+		JButton btnListar = new JButton("Listar");
+		btnListar.setBounds(517, 54, 89, 23);
+		contentPane.add(btnListar);
+	}
+}

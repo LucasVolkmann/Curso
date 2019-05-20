@@ -1,0 +1,28 @@
+package acao;
+
+import java.util.ArrayList;
+
+import beans.Beans;
+
+public class Acao {
+
+	ArrayList<Beans> Jogos = new ArrayList<Beans>();
+	
+	public boolean verificar(Beans b) {
+		boolean verificar=true;
+		
+		for(int i=0;i<Jogos.size();i++) {
+		if(Jogos.size()==0) {
+			break;
+		}else if(b.getNome().contentEquals(Jogos.get(i).getNome())&&b.getPlataforma().contentEquals(Jogos.get(i).getPlataforma())) {
+			verificar=false;
+			break;
+		}
+		}
+		return verificar;
+	}
+
+	public void cadastrar(Beans b) {
+		Jogos.add(b);
+	}
+}

@@ -1,0 +1,10 @@
+package pagamento;
+
+public class Debito extends Credito {
+	
+	//Método de tributos
+	public void tributos(double valor) {
+		System.out.println(valor*0.02);
+	}
+
+}

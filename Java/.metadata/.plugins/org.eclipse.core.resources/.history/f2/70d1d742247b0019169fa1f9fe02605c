@@ -1,0 +1,22 @@
+package colaborador;
+
+public class Colaborador {
+
+	//Atributos
+	private String cargoColaborador;
+	private double salarioColaborador;
+	
+	//Construtor
+	public Colaborador(String cargoColaborador,double salarioColaborador) {
+		this.cargoColaborador = cargoColaborador;
+		this.salarioColaborador = salarioColaborador;
+	}
+	
+	//Método para exibir dados do colaborador
+	public void exibirDadosColaborador() {
+		System.out.println("Cargo "+cargoColaborador);
+		System.out.println("Salário "+salarioColaborador);
+	}
+	
+	
+}

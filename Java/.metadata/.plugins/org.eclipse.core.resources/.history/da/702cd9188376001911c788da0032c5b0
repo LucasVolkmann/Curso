@@ -1,0 +1,25 @@
+package acao;
+
+import javax.swing.table.DefaultTableModel;
+
+import dados.Array;
+
+public class Acao {
+
+	public DefaultTableModel selecionar() {
+		
+		DefaultTableModel Tabela = new DefaultTableModel();
+		Tabela.addColumn("Colaborador");
+		Tabela.addColumn("Salário Liquido");
+		
+		for(int i=0;i<Array.Colaborador.size();i++) {
+			Tabela.addRow(new Object[] {
+					Array.Colaborador.get(i).getNome(),
+					Array.Colaborador.get(i).getSalarioLiquido()					
+			});
+		}
+		
+		return Tabela;
+	}
+	
+}

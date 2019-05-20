@@ -1,0 +1,38 @@
+package beans;
+
+public class Beans {
+	
+	String genero,plataforma,nome;
+	int indica,valor;
+	public String getGenero() {
+		return genero;
+	}
+	public void setGenero(String genero) {
+		this.genero = genero;
+	}
+	public String getPlataforma() {
+		return plataforma;
+	}
+	public void setPlataforma(String plataforma) {
+		this.plataforma = plataforma;
+	}
+	public String getNome() {
+		return nome;
+	}
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+	public int getIndica() {
+		return indica;
+	}
+	public void setIndica(int indica) {
+		this.indica = indica;
+	}
+	public int getValor() {
+		return valor;
+	}
+	public void setValor(int valor) {
+		this.valor = valor;
+	}
+
+}

@@ -1,0 +1,28 @@
+package acao;
+
+import beans.Beans;
+import dados.Array;
+
+public class Acao {
+	
+	public void somar(int indice) {
+		int cont=Array.Lista.get(indice).getQuantidade();
+		System.out.println(Array.Lista.get(indice).getQuantidade());
+		Array.Lista.get(indice).setQuantidade(cont+1);
+	}
+	
+	public int somarTOTAL() {
+		int somar=0;
+		
+			somar=Array.Lista.get(0).getQuantidade()+
+					Array.Lista.get(1).getQuantidade()+
+					Array.Lista.get(2).getQuantidade()+
+					Array.Lista.get(3).getQuantidade()+
+					Array.Lista.get(4).getQuantidade()+
+					Array.Lista.get(5).getQuantidade()+
+					Array.Lista.get(6).getQuantidade()+
+					Array.Lista.get(7).getQuantidade();		
+		return somar;
+	}
+	
+}

@@ -1,0 +1,12 @@
+package acao;
+
+import beans.Beans;
+import dados.Array;
+
+public class Acao {
+	
+	public void addListar(Beans b) {
+		Array.Lista.add(b);
+	}
+
+}

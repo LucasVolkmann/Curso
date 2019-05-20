@@ -1,0 +1,55 @@
+package exercicios03;
+
+import java.util.Scanner;
+
+public class Principal {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		//Criar um objeto para armazenar os dados
+		Scanner armazenar = new Scanner(System.in);
+	    
+	    //Informar quatro notas
+		System.out.println("Informe a primeira nota");
+		double nota1 = armazenar.nextDouble();
+		
+		//Informar a média aprovado
+		System.out.println("7,0""8,0""9,0""10");
+		double valor = armazenar.nextDouble();
+		
+		//Situação
+		System.out.println("Aprovado");
+		
+		//Informar a média Em exame
+		System.out.println("5,0""6,9");
+		double valor = armazenar.nextDouble();
+		
+		//Situação
+		System.out.println("Em exame");
+		
+		
+		
+		
+		
+		
+	                                                                  
+	
+	
+	
+	
+	
+	
+	
+	
+	   }
+	
+	
+	
+	
+
+
+
+
+
+

@@ -1,0 +1,133 @@
+package formulario;
+
+import java.awt.BorderLayout;
+import java.awt.EventQueue;
+
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+import javax.swing.border.EmptyBorder;
+import javax.swing.JButton;
+import javax.swing.JLabel;
+import javax.swing.SwingConstants;
+
+public class Formulario extends JFrame {
+
+	private JPanel contentPane;
+
+	public Formulario() {
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		setBounds(100, 100, 632, 460);
+		contentPane = new JPanel();
+		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
+		setContentPane(contentPane);
+		contentPane.setLayout(null);
+		
+		JButton btnFeijaoMais = new JButton("+");
+		btnFeijaoMais.setBounds(10, 54, 50, 23);
+		contentPane.add(btnFeijaoMais);
+		
+		JButton btnFeijaoMenos = new JButton("-");
+		btnFeijaoMenos.setBounds(74, 54, 50, 23);
+		contentPane.add(btnFeijaoMenos);
+		
+		JLabel lblFeijao = new JLabel("Feij\u00E3o");
+		lblFeijao.setHorizontalAlignment(SwingConstants.CENTER);
+		lblFeijao.setBounds(10, 11, 114, 43);
+		contentPane.add(lblFeijao);
+		
+		JButton btnArrozMais = new JButton("+");
+		btnArrozMais.setBounds(134, 54, 50, 23);
+		contentPane.add(btnArrozMais);
+		
+		JButton btnArrozMenos = new JButton("-");
+		btnArrozMenos.setBounds(198, 54, 50, 23);
+		contentPane.add(btnArrozMenos);
+		
+		JLabel lblArroz = new JLabel("Arroz");
+		lblArroz.setHorizontalAlignment(SwingConstants.CENTER);
+		lblArroz.setBounds(134, 11, 114, 43);
+		contentPane.add(lblArroz);
+		
+		JButton button_3 = new JButton("+");
+		button_3.setBounds(258, 54, 50, 23);
+		contentPane.add(button_3);
+		
+		JButton button_4 = new JButton("-");
+		button_4.setBounds(322, 54, 50, 23);
+		contentPane.add(button_4);
+		
+		JLabel lblTomate = new JLabel("Tomate");
+		lblTomate.setHorizontalAlignment(SwingConstants.CENTER);
+		lblTomate.setBounds(258, 11, 114, 43);
+		contentPane.add(lblTomate);
+		
+		JButton button_5 = new JButton("+");
+		button_5.setBounds(382, 54, 50, 23);
+		contentPane.add(button_5);
+		
+		JButton button_6 = new JButton("-");
+		button_6.setBounds(446, 54, 50, 23);
+		contentPane.add(button_6);
+		
+		JLabel lblSucoDeLaranja = new JLabel("Suco De Laranja");
+		lblSucoDeLaranja.setHorizontalAlignment(SwingConstants.CENTER);
+		lblSucoDeLaranja.setBounds(382, 11, 114, 43);
+		contentPane.add(lblSucoDeLaranja);
+		
+		JButton button_7 = new JButton("+");
+		button_7.setBounds(10, 131, 50, 23);
+		contentPane.add(button_7);
+		
+		JButton button_8 = new JButton("-");
+		button_8.setBounds(74, 131, 50, 23);
+		contentPane.add(button_8);
+		
+		JLabel lblSucoDeUva = new JLabel("Suco de Uva");
+		lblSucoDeUva.setHorizontalAlignment(SwingConstants.CENTER);
+		lblSucoDeUva.setBounds(10, 88, 114, 43);
+		contentPane.add(lblSucoDeUva);
+		
+		JButton button_9 = new JButton("+");
+		button_9.setBounds(134, 131, 50, 23);
+		contentPane.add(button_9);
+		
+		JButton button_10 = new JButton("-");
+		button_10.setBounds(198, 131, 50, 23);
+		contentPane.add(button_10);
+		
+		JLabel lblCerveja = new JLabel("Cerveja");
+		lblCerveja.setHorizontalAlignment(SwingConstants.CENTER);
+		lblCerveja.setBounds(134, 88, 114, 43);
+		contentPane.add(lblCerveja);
+		
+		JButton button_11 = new JButton("+");
+		button_11.setBounds(258, 131, 50, 23);
+		contentPane.add(button_11);
+		
+		JButton button_12 = new JButton("-");
+		button_12.setBounds(322, 131, 50, 23);
+		contentPane.add(button_12);
+		
+		JLabel lblTomate_1 = new JLabel("Tomate");
+		lblTomate_1.setHorizontalAlignment(SwingConstants.CENTER);
+		lblTomate_1.setBounds(258, 88, 114, 43);
+		contentPane.add(lblTomate_1);
+		
+		JButton button_13 = new JButton("+");
+		button_13.setBounds(382, 131, 50, 23);
+		contentPane.add(button_13);
+		
+		JButton button_14 = new JButton("-");
+		button_14.setBounds(446, 131, 50, 23);
+		contentPane.add(button_14);
+		
+		JLabel lblBanana = new JLabel("Banana");
+		lblBanana.setHorizontalAlignment(SwingConstants.CENTER);
+		lblBanana.setBounds(382, 88, 114, 43);
+		contentPane.add(lblBanana);
+		
+		JPanel panel = new JPanel();
+		panel.setBounds(10, 11, 114, 66);
+		contentPane.add(panel);
+	}
+}

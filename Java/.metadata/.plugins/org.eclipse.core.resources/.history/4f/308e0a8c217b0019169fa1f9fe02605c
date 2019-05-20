@@ -1,0 +1,10 @@
+package carhos;
+
+public class Estagiario {
+
+		//IR
+		public void impostoRenda() {
+			
+		}
+	
+}

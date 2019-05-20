@@ -1,0 +1,10 @@
+package carhos;
+
+public class Analista {
+
+	//IR
+		public void impostoRenda() {
+			
+		}
+	
+}

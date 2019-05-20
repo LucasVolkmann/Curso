@@ -1,0 +1,23 @@
+import java.util.HashMap;
+
+public class Principal {
+
+	public static void main(String[] args) {
+		
+		//Criar um HashMap
+		HashMap<String, String> paises = new HashMap<String, String>();
+		
+		//Adicionar elementos ao HashMap
+		paises.put("Japão", "Tóquio");
+		paises.put("Brasil", "Brasilia");
+		paises.put("Argentina", "Buenos Aires");
+		
+		//Obter dados através da chave
+		System.out.println(paises.get("Brasil"));
+		
+		//Selecionar todos os paises
+		System.out.println(paises);
+		
+	}
+
+}

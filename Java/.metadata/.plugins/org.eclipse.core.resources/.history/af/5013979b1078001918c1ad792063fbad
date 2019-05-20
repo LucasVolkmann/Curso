@@ -1,0 +1,16 @@
+package beans;
+
+public class Beans {
+
+	int Quantidade=0;
+
+	public int getQuantidade() {
+		return Quantidade;
+	}
+
+	public void setQuantidade(int quantidade) {
+		Quantidade = quantidade;
+	}
+
+
+}
